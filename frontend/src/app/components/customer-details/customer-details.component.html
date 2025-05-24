@@ -1,0 +1,24 @@
+<h4 class="mb-4 text-success">
+    Customer Details
+  </h4>
+  
+  <div
+    *ngIf="customer"
+    class="mat-elevation-z2 p-4 rounded bg-white shadow-sm border border-light"
+  >
+    <p class="mb-3">
+      <span class="fw-bold text-dark">Name:</span>
+      <span class="ms-2">{{ customer.name }}</span>
+    </p>
+  
+    <p class="mb-3">
+      <span class="fw-bold text-dark">Email:</span>
+      <span class="ms-2">{{ customer.email }}</span>
+    </p>
+  
+    <p class="mb-0">
+      <span class="fw-bold text-dark">Phone:</span>
+      <span class="ms-2">{{ customer.phone }}</span>
+    </p>
+  </div>
+  
