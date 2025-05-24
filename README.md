@@ -1,47 +1,55 @@
-<h1 align="center">📋 Customer Management App</h1>
+# 📋 Customer Management App — FullStack Solution
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Angular-17-DD0031?style=for-the-badge&logo=angular" />
-  <img src="https://img.shields.io/badge/Material_UI-Angular_Material-blue?style=for-the-badge&logo=angular" />
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
-</p>
+A modern fullstack customer management application built with **Angular 17** for the frontend and **Node.js / Express.js** for the backend. Easily manage customers with full CRUD functionality and responsive UI powered by Angular Material.
 
-<p align="center">
-  A modern Angular 17 application to manage customers — Create 📝 • Edit 🔄 • View 👁 • Delete ❌
-</p>
-
-<p align="center">
-  <a href="#demo">Demo</a> •
-  <a href="#features">Features</a> • 
-  <a href="#getting-started">Getting Started</a> • 
-  <a href="#technologies-used">Technologies</a>
-</p>
+![demo](https://github.com/yasin-erkan/Customer_managementApp-Angular17/blob/main/angular-customers-ezgif.com-video-to-gif-converter.gif)
 
 ---
 
-## 🖥 Demo
+## 🛠 Tech Stack
 
-<p align="center">
-  <img src="https://github.com/yasin-erkan/Customer_managementApp-Angular17/blob/main/angular-customers-ezgif.com-video-to-gif-converter.gif?raw=true" alt="Customer Management Demo" />
-</p>
+### 🌐 Frontend
+- ✅ Angular 17+
+- 🎨 Angular Material
+- 💅 SCSS for custom styling
+- ♻️ RxJS for reactive programming
+- ⚡ Angular Router for routing
+
+### 🧰 Backend
+- 🟢 Node.js
+- 🚀 Express.js
+- 🗂 MongoDB for data storage
+- 🔐 RESTful API with validation
 
 ---
 
 ## ✨ Features
 
-- ✅ Reactive Forms with Validation  
-- 💠 Angular Material UI Design  
-- ⚡ Fast Routing with Angular Router  
-- 🧼 Clean and Responsive Layout  
-- 💬 Toasts & visual feedback with animations  
-- 🔥 Organized, component-based structure  
+- 📝 Create New Customer
+- 👁 View Customer Details
+- ✏️ Edit Customer Information
+- ❌ Delete Customer
+- 📱 Responsive Material UI
+- ✅ Reactive Forms & Validation
+- 🌍 REST API integration
+- 🔐 Secure HTTP communication
 
 ---
 
-## ⚙️ Getting Started
+## 🚀 Getting Started
 
-### 📥 Clone the Repository
+### 📦 Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Angular CLI](https://angular.io/cli)
+- [TypeScript](https://www.typescriptlang.org/)
+
+### 🔧 Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/yasin-erkan/Customer_managementApp-Angular17.git
 cd Customer_managementApp-Angular17
